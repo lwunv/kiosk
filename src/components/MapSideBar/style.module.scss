@@ -1,0 +1,14 @@
+.mapControl {
+    border-right: 1px solid #CCCCCC;
+    align-items: center;
+    width: var(--floor-width);
+    height: 100%;
+    background: #FBFBFB;
+    overflow-x: hidden;
+    touch-action: none;
+}
+
+.floorList {
+    display: table;
+    margin: 65px auto 0px;
+}

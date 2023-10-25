@@ -1,0 +1,26 @@
+.langItem {
+    font-size: 1.8rem;
+    height: 4.2rem;
+    width: 7.3rem;
+    border: 2px solid var(--bg-dark);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    &:first-child {
+        border-right: 0.1rem;
+        border-top-left-radius: 0.8rem;
+        border-bottom-left-radius: 0.8rem;
+    }
+    &:last-child {
+        border-left: 0.1rem;
+        border-top-right-radius: 0.8rem;
+        border-bottom-right-radius: 0.8rem;
+    }
+    &.active {
+        background: var(--bg-dark);
+    }
+}
